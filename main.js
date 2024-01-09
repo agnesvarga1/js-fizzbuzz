@@ -1,4 +1,6 @@
+//node to append
 const title = document.querySelector("h1");
+//grid container div
 let mainContainer = document.createElement("div");
 
 mainContainer.classList.add("container");
@@ -6,6 +8,8 @@ mainContainer.classList.add("container");
 title.append(mainContainer);
 //print fizz buzz in console based on the remainders of the numb/s from 1 to 100
 for (let i = 1; i <= 100; i++) {
+  //each time the loop increments recreate the cell
+
   let singleCell = document.createElement("div");
   singleCell.classList.add("cell");
   mainContainer.appendChild(singleCell);
