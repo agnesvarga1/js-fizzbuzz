@@ -15,3 +15,35 @@ html {
 h1 {
   font-size: 3rem;
 }
+
+.container {
+  width: 40%;
+  aspect-ratio: 1;
+  border: 3px solid #fff;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cell {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.normal {
+  background-color: #424242;
+}
+.fizz {
+  background-color: #fe9e44;
+}
+.buzz {
+  background-color: #01c29a;
+}
+
+.fizz-buzz {
+  background-color: #6171d9;
+}
